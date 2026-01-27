@@ -26,9 +26,9 @@
 
   <body class="d-flex flex-column min-vh-100">
     <%= render 'layouts/navigation' %>
-    <%= render 'layouts/messages' %>
 
     <main class="flex-grow-1" style="background-color: lightgray" >
+      <%= render 'layouts/messages' %>
       <%= yield %>
     </main>
 
