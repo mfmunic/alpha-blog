@@ -19,7 +19,13 @@
             </ul>
         </li>
         <li class="nav-item">
-            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            <%= link_to 'Log in', login_path, class: "nav-link" %>
+        </li>
+        <li class="nav-item" style="display: flex; align-items: center">
+            <%= button_to "Logout",
+              logout_path,
+              method: :delete,
+              class: "nav-link btn btn-link p-0 border-0 bg-transparent" %>
         </li>
         </ul>
         <form class="d-flex" role="search">
