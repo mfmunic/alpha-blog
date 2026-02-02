@@ -7,7 +7,7 @@ gem "stimulus-rails"
 gem "jbuilder"
 gem "bcrypt", "~> 3.1.7"
 gem "will_paginate", "~> 4.0"
-gem "bootsnap", require: false
+# gem "bootsnap", require: false
 gem "image_processing", "~> 1.2"
 gem "bootstrap", "~> 5.3"
 gem "dartsass-rails"
